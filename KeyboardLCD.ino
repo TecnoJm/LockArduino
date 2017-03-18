@@ -4,7 +4,7 @@
 LiquidCrystal lcd(1, 2, 4, 5, 6, 7); 
 #include <Keypad.h>
 #include <Password.h>
-Password Pass = Password("13579"); 
+Password Pass = Password("2468"); 
 
 const byte ROWS = 4;
 byte sensorpin = A4;
