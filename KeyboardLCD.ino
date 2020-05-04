@@ -1,12 +1,11 @@
 #include <SoftwareSerial.h>
-
 #include <LiquidCrystal.h> 
-LiquidCrystal lcd(1, 2, 4, 5, 6, 7); 
 #include <Keypad.h>
 #include <Password.h>
-Password Pass = Password("2468"); 
-Password Pass2 = Password("13579"); 
+Password Pass = Password("12345"); 
+Password Pass2 = Password("33333"); 
 
+LiquidCrystal lcd(1, 2, 4, 5, 6, 7); 
 const byte ROWS = 4;
 byte sensorpin = A4;
 int dato = 0;
@@ -144,4 +143,3 @@ lcd.setCursor(0,1);
   }
 }
 }
-
